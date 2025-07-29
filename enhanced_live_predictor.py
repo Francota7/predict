@@ -80,7 +80,7 @@ def get_fixture_result(fixture_id):
 st.title("📊 Football Match Predictor + Tracker")
 st.info("Replace 'YOUR_API_KEY_HERE' with your API key to use this app")
 
-if API_KEY == "YOUR_API_KEY_HERE":
+if API_KEY == "ae9150d9d516423114b2ff7e3df54a21":
     st.warning("⚠️ Please enter your API key in the code to activate live data.")
 else:
     leagues = get_leagues()
