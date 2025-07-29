@@ -6,7 +6,7 @@ import os
 from datetime import datetime
 
 # ⚠️ Replace this with your actual API key from API-Football
-API_KEY = ae9150d9d516423114b2ff7e3df54a21
+API_KEY = "ae9150d9d516423114b2ff7e3df54a21"
 BASE_URL = "https://v3.football.api-sports.io"
 HEADERS = {"x-apisports-key": API_KEY}
 
