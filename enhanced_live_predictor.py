@@ -84,7 +84,7 @@ if API_KEY == "YOUR_API_KEY_HERE":
     st.warning("⚠️ Please enter your API key in the code to activate live data.")
 else:
     leagues = get_leagues()
-    top_leagues = [l for l in leagues if l["league"]["type"] == "League" and any(s["year"] == 2024 for s in l["seasons"])]
+    top_leagues = [l for l in leagues if l["league"]["type"] == "League" and any(s["year"] == 2025 for s in l["seasons"])]
     league_map = {f"{l['league']['name']} ({l['country']['name']})": l["league"]["id"] for l in top_leagues}
     selected_league = st.selectbox("Choose a League", list(league_map.keys()))
     league_id = league_map[selected_league]
